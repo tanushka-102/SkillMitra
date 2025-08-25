@@ -205,3 +205,55 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Node.js / Backend ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# --- React / Frontend ---
+frontend/node_modules/
+frontend/build/
+
+# --- Python / ML ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore model weights and large data files
+*.h5
+*.pkl
+*.joblib
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+*.npy
+*.npz
+
+# --- IDE / Editor specific ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
